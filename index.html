@@ -7,6 +7,7 @@
     <title>Top | App</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/flexbox.css">
+    <link rel="stylesheet" href="stylesheets/form.css">
 </head>
 
 <div class="header">
@@ -20,11 +21,13 @@
         <li><a href="#">About</a></li>
     </ul>
 </div>
-<br><br><br>
+<br><br><br><br><br>
 
-<div class="caption">
-    <h2>Pages</h2>
-</div>
+<h2 class="caption">Pages</h2>
+<form class="searchform" method="GET" action="#">
+    <input type="search" id="searchbar" placeholder="Search" />
+    <input type="image" id="searchbtn" src="./img/search.svg" />
+</form>
 
 <hr>
 
@@ -46,7 +49,7 @@
 <!-- testing -->
 <div class="buttons">
     <button class="button" onclick="location.href='user.html'" value="user">User</button>
-    <button class="button" onclick="location.href='word.html'" value="word">Word</button>
+<button class="button" onclick="location.href='word.html'" value="word">Word</button>
 </div>
 
 </html>
