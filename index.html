@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>App Interface</title>
-        <link rel="stylesheet" href="stylesheets/style.css">
-    </head>
-    <h1>Application</h1>
-    <body>
-        test
-    </body>
-    <button type="button" onclick="location.href='user.html'" value="user">User</button>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Top | App</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/flexbox.css">
+</head>
+
+<div class="header">
+    <h2>Application</h2>
+</div>
+
+<div class="navbar">
+    <ul class="navbtn">
+        <li><a href="#">MyPage</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</div>
+<br><br><br>
+
+<div class="caption">
+    <h2>Pages</h2>
+</div>
+
+<hr>
+
+<body>
+
+    <div class="flexbox">
+        <div class="userColumn">User1</div>
+        <div class="userColumn">User2</div>
+        <div class="userColumn">User3</div>
+        <div class="wordColumn">Word1</div>
+        <div class="wordColumn">Word2</div>
+        <div class="wordColumn">Word3</div>
+    </div>
+
+</body>
+
+<hr>
+
+<!-- testing -->
+<div class="buttons">
+    <button class="button" onclick="location.href='user.html'" value="user">User</button>
+    <button class="button" onclick="location.href='word.html'" value="word">Word</button>
+</div>
+
 </html>
