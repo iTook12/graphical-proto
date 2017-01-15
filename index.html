@@ -10,10 +10,19 @@
     <link rel="stylesheet" href="stylesheets/form.css">
 </head>
 
+<!-- header -->
 <div class="header">
-    <h2>Application</h2>
+    <a href="./index.html">
+        <img src="./img/icon.svg" />
+        <p>Application</p>
+    </a>
+    <form class="searchform" method="GET" action="#">
+        <input type="search" id="searchbar" placeholder="Search" />
+        <input type="image" id="searchbtn" src="./img/search.svg" />
+    </form>
 </div>
 
+<!-- navigation bar-->
 <div class="navbar">
     <ul class="navbtn">
         <li><a href="#">MyPage</a></li>
@@ -21,16 +30,15 @@
         <li><a href="#">About</a></li>
     </ul>
 </div>
-<br><br><br><br><br>
 
-<h2 class="caption">Pages</h2>
-<form class="searchform" method="GET" action="#">
-    <input type="search" id="searchbar" placeholder="Search" />
-    <input type="image" id="searchbtn" src="./img/search.svg" />
-</form>
+<br><br><br><br>
+
+<!-- caption -->
+<h2 class="caption">Articles</h2>
 
 <hr>
 
+<!-- flexbox grid -->
 <body>
 
     <div class="flexbox">
@@ -40,6 +48,24 @@
         <div class="wordColumn">Word1</div>
         <div class="wordColumn">Word2</div>
         <div class="wordColumn">Word3</div>
+    </div>
+
+    <div class="flexbox">
+        <div class="userColumn">User4</div>
+        <div class="userColumn">User5</div>
+        <div class="userColumn">User6</div>
+        <div class="wordColumn">Word4</div>
+        <div class="wordColumn">Word5</div>
+        <div class="wordColumn">Word6</div>
+    </div>
+
+    <div class="flexbox">
+        <div class="userColumn">User7</div>
+        <div class="userColumn">User8</div>
+        <div class="userColumn">User9</div>
+        <div class="wordColumn">Word7</div>
+        <div class="wordColumn">Word8</div>
+        <div class="wordColumn">Word9</div>
     </div>
 
 </body>

@@ -3,25 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Word | App</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/flexbox.css">
+    <link rel="stylesheet" href="stylesheets/form.css">
 </head>
 
-<article>
-    <header>
-        <h2>Application</h2>
-        <ul class="nav">
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">MyPage</a></li>
-        </ul>
-    </header>
-</article>
+<!-- header -->
+<div class="header">
+    <a href="./index.html">
+        <img src="./img/icon.svg" />
+        <p>Application</p>
+    </a>
+    <form class="searchform" method="GET" action="#">
+        <input type="search" id="searchbar" placeholder="Search" />
+        <input type="image" id="searchbtn" src="./img/search.svg" />
+    </form>
+</div>
+
+<!-- navigation bar-->
+<div class="navbar">
+    <ul class="navbtn">
+        <li><a href="#">MyPage</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</div>
+
+<br><br><br><br>
+
+<!-- caption -->
+<h2 class="caption">Word Page</h2>
+
+<hr>
 
 <body>
-    test word page
+
 </body>
 
-<button class="button" onclick="location.href='index.html'" value="index">Back</button>
+<hr>
+
+<!-- testing -->
+<div class="buttons">
+    <button class="button" onclick="location.href='index.html'" value="index">Home</button>
+<button class="button" onclick="location.href='user.html'" value="index">user</button>
+</div>
 
 </html>

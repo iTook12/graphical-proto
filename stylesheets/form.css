@@ -3,7 +3,10 @@ form, input {
 }
 
 .searchform {
-    position: relative;
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    margin-bottom: 50px;
 }
 
 #searchbar {
