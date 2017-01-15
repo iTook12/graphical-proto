@@ -1,0 +1,57 @@
+.wordfield {
+    margin: 20px 30px;
+    padding: 30px;
+    background-color: #eee;
+    box-shadow: 1px 2px 2px 0px gray;
+}
+
+.wordset {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wordset a {
+    font-size: 16px;
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    padding: 2px;
+    border: 1px solid #44f;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #44f;
+}
+
+.wordfield a:hover {
+    color: #00f;
+    background-color: lightgray;
+    border: 1px  lightgray;
+    transition: 100ms;
+}
+
+.knowbtn {
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    padding: 0px;
+    width: 40px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    transition: 300ms;
+    position: relative;
+}
+
+.knowbtn:hover {
+    background-color: #fd0;
+    transition: 100ms;
+}
+
+.knowbtn:active {
+    border: 1px solid gray;
+}
+
+.knowbtn img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 2px;
+}

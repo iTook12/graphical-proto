@@ -4,45 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>User | App</title>
+    <title>User's Page | App</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/flexbox.css">
     <link rel="stylesheet" href="stylesheets/form.css">
+    <link rel="stylesheet" href="stylesheets/userpage.css">
 </head>
 
 <body>
 
-<!-- header -->
-<div class="header">
-    <a href="./index.html">
-        <img src="./img/icon.svg" />
-        <p>
-            <script type="text/javascript" src="./javascripts/name.js">
-            </script>
-        </p>
-    </a>
-    <form class="searchform" method="GET" action="#">
-        <input type="search" id="searchbar" placeholder="Search" />
-        <input type="image" id="searchbtn" src="./img/search.svg" />
+    <!-- header -->
+    <div class="header">
+        <a href="./index.html">
+            <img src="./img/icon.svg" />
+            <p>
+                <script type="text/javascript" src="./javascripts/name.js"></script>
+            </p>
+        </a>
+        <form class="searchform" method="GET" action="#">
+            <input type="search" id="searchbar" placeholder="Search" />
+            <input type="image" id="searchbtn" src="./img/search.svg" />
+        </form>
+
+        <!-- navigation bar-->
+        <div class="navbar">
+            <ul class="navbtn">
+                <li><a href="#">MyPage</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <br>
+
+    <!-- caption -->
+    <h2 class="caption">iTook12's Word List</h2>
+
+    <hr>
+
+    <!-- insert -->
+    <form class="insertword" method="GET" action="#">
+        <input type="text" id="wordbar" placeholder="Add a word" />
+        <input type="image" id="wordbtn" src="./img/pen.svg" />
     </form>
-    
-<!-- navigation bar-->
-<div class="navbar">
-    <ul class="navbtn">
-        <li><a href="#">MyPage</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">About</a></li>
-    </ul>
-</div>
 
-</div>
+    <!-- list of words -->
+    <div class="wordfield">
 
-<br>
+        <table class="wordset">
+            <tr>
+                <td>
+                    <button class="knowbtn"><img src="img/lightbulb.svg" /></button>
+                </td>
+                <td><a href="#">カポタスト</a></td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td><button class="knowbtn"><img src="img/lightbulb.svg"/></button>
+                </td>
+                <td><a href="#">ハーモニクス</a></td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td><button class="knowbtn"><img src="img/lightbulb.svg"/></button>
+                </td>
+                <td><a href="#">トラスロッド</a></td>
+                <td>6</td>
+            </tr>
+        </table>
 
-<!-- caption -->
-<h2 class="caption">User Page</h2>
-
-<hr>
+    </div>
 
 </body>
 
@@ -51,7 +84,7 @@
 <!-- testing -->
 <div class="buttons">
     <button class="button" onclick="location.href='index.html'" value="index">Home</button>
-<button class="button" onclick="location.href='word.html'" value="index">word</button>
+<button class="button" onclick="location.href='word.html'" value="index">Word</button>
 </div>
 
 </html>
